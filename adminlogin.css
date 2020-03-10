@@ -1,0 +1,110 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+::placeholder{
+  color: white;
+  opacity: 0.8;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+
+}
+
+#main{
+	width: 100%;
+	height: 100vh;
+	background-image: url(adminlogin.jpg);
+	background-size: cover;
+}
+
+nav{
+	width 100%;
+	height: 80px;
+	background-color: #0005;
+	line-height: 80px;
+}
+
+nav ul{
+	float: right;
+	margin-right: 30px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	transition: 0.8s all;
+}
+
+nav ul li:hover{
+	background-color: #0005;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: #fff;
+  padding: 5px 20px;
+}
+
+nav p{
+	position: fixed;
+	top: 5px;
+	left: 150px;
+	color: #ece84c;
+	font-size: 40px;
+}
+
+.Login{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: white;
+}
+
+.Login h1{
+	border-bottom: 6px solid #fcd728;
+	padding: 10px;
+	margin-bottom: 30px;
+	color: white;
+}
+
+.textbox{
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1.5px  #fcd728;
+
+}
+
+.textbox i{
+  width: 26px;
+  float: left;
+  text-align: center;
+}
+
+.textbox input{
+  border: none;
+  outline: none;
+  background: none;
+  color: white;
+  font-size: 15px;
+  width: 200px;
+  float: left;
+  margin: 3px;
+}
+
+.btn{
+  width: 100%;
+  background: none;
+  font-size: 30px;
+  border: 2px solid #fcd728;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  margin: 12px 0;
+
+}
